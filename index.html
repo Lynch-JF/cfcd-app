@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>App CFCD La Vega</title>
+<meta name="description" content="Descarga la app de Centro Familiar Casa de Dios – La Vega: devocional diario, prédicas, Biblia y más.">
+<meta name="theme-color" content="#0B2545">
+<meta property="og:title" content="App de Casa de Dios · La Vega">
+<meta property="og:description" content="Devocional diario con tiempos de adoración, cortes de prédicas, Biblia y donaciones.">
+<meta property="og:image" content="logo.png">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Karla:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0B2545; --navy-2: #143A6B; --gold: #E3A73C; --gold-dark: #C4841F;
+    --cream: #FCFAF3; --paper: #F5EFE1; --ink: #15243D; --ink-soft: #56637A; --line: rgba(21,36,61,.12);
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--cream); color: var(--ink); font-family: Karla, system-ui, sans-serif; font-size: 17px; line-height: 1.55; }
+  header { background: linear-gradient(180deg, #0D2B52, var(--navy)); color: var(--cream); text-align: center; padding: 40px 16px 56px; }
+  header img { width: 112px; height: 112px; border-radius: 50%; box-shadow: 0 8px 30px rgba(0,0,0,.35); }
+  .eyebrow { font-weight: 700; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); margin: 18px 0 6px; }
+  h1 { font-family: Fraunces, Georgia, serif; font-size: clamp(28px, 7vw, 40px); line-height: 1.15; margin: 0; }
+  header p { color: #C9D4E5; max-width: 30em; margin: 12px auto 0; }
+  main { max-width: 560px; margin: -32px auto 0; padding: 0 16px 48px; }
+  .card { background: #fff; border: 1px solid var(--line); border-radius: 18px; padding: 22px; margin-bottom: 16px; box-shadow: 0 4px 20px rgba(11,37,69,.06); }
+  .card.destacada { border: 2px solid var(--gold); }
+  h2 { font-family: Fraunces, Georgia, serif; font-size: 22px; margin: 0 0 4px; display: flex; align-items: center; gap: 10px; }
+  .sub { color: var(--ink-soft); margin: 0 0 16px; font-size: 15px; }
+  .btn { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 15px 18px; border-radius: 12px; font: 700 17px Karla, sans-serif; text-decoration: none; border: 0; cursor: pointer; }
+  .btn.oro { background: var(--gold); color: var(--navy); }
+  .btn.azul { background: var(--navy); color: var(--cream); }
+  .btn:active { opacity: .8; }
+  ol { padding-left: 22px; margin: 16px 0 0; color: var(--ink-soft); font-size: 15px; }
+  ol li { margin-bottom: 6px; }
+  ol b { color: var(--ink); }
+  .version { text-align: center; color: var(--ink-soft); font-size: 13px; margin-top: 24px; }
+  .icono { width: 26px; height: 26px; flex: none; }
+  ul.lista { list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 14px; font-size: 15px; }
+  ul.lista li::before { content: "✦ "; color: var(--gold-dark); }
+  @media (max-width: 380px) { ul.lista { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <img src="logo.png" alt="Centro Familiar Casa de Dios – La Vega">
+  <p class="eyebrow">Centro Familiar Casa de Dios · La Vega</p>
+  <h1>La app de la iglesia</h1>
+  <p>Devocional diario con tiempos de adoración, cortes de las prédicas, la Biblia y más, en tu teléfono.</p>
+</header>
+
+<main>
+  <section class="card" id="android">
+    <h2>
+      <svg class="icono" viewBox="0 0 24 24" fill="#3DDC84" aria-hidden="true"><path d="M17.6 9.48l1.84-3.18a.38.38 0 10-.66-.38l-1.86 3.22a11.4 11.4 0 00-9.84 0L5.22 5.92a.38.38 0 10-.66.38L6.4 9.48A10.8 10.8 0 001 18h22a10.8 10.8 0 00-5.4-8.52zM7 15.25a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm10 0a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"/></svg>
+      Android
+    </h2>
+    <p class="sub">Descarga e instala la app.</p>
+    <a class="btn oro" id="apk" href="https://github.com/Lynch-JF/cfcd-app/releases/latest/download/cfcd-la-vega.apk">Descargar la app</a>
+    <ol>
+      <li>Toca <b>Descargar la app</b> y espera a que baje el archivo.</li>
+      <li>Ábrelo. Si el teléfono lo pide, permite <b>instalar apps de esta fuente</b>.</li>
+      <li>Si aparece un aviso de Play Protect, toca <b>Más detalles → Instalar de todas formas</b>. Sale porque la app todavía no está en Play Store.</li>
+    </ol>
+  </section>
+
+  <section class="card" id="iphone">
+    <h2>
+      <svg class="icono" viewBox="0 0 24 24" fill="#15243D" aria-hidden="true"><path d="M16.37 12.6c-.02-2.2 1.8-3.26 1.88-3.31-1.02-1.5-2.62-1.7-3.19-1.72-1.36-.14-2.65.8-3.34.8-.69 0-1.75-.78-2.88-.76a4.26 4.26 0 00-3.6 2.19c-1.53 2.66-.39 6.6 1.1 8.76.73 1.06 1.6 2.24 2.74 2.2 1.1-.04 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13a9.4 9.4 0 001.2-2.47 3.84 3.84 0 01-2.26-3.54zM14.2 6.13A3.83 3.83 0 0015.08 3.4a3.9 3.9 0 00-2.53 1.3 3.64 3.64 0 00-.9 2.65 3.22 3.22 0 002.55-1.22z"/></svg>
+      iPhone
+    </h2>
+    <p class="sub">Úsala desde Safari y agrégala a tu pantalla de inicio. Queda con su ícono, como una app.</p>
+    <a class="btn azul" href="web/">Abrir la app</a>
+    <ol>
+      <li>Toca <b>Abrir la app</b> (en <b>Safari</b>).</li>
+      <li>Toca el botón <b>Compartir</b> (el cuadrado con la flecha hacia arriba).</li>
+      <li>Elige <b>Agregar a pantalla de inicio</b> y luego <b>Agregar</b>.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>Qué trae</h2>
+    <ul class="lista">
+      <li>Devocional nuevo cada día</li>
+      <li>Tiempos de adoración con música</li>
+      <li>Rachas de días seguidos</li>
+      <li>Cortes de las prédicas</li>
+      <li>Biblia Reina-Valera 1909</li>
+      <li>Dar y diezmar</li>
+      <li>Horarios y cómo llegar</li>
+      <li>Peticiones de oración</li>
+    </ul>
+  </section>
+
+  <p class="version" id="version"></p>
+</main>
+
+<script>
+  // Destaca la opción de este teléfono y la pone primero.
+  var ua = navigator.userAgent || '';
+  var esIOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  var esAndroid = /Android/i.test(ua);
+  var main = document.querySelector('main');
+  if (esIOS) { document.getElementById('iphone').classList.add('destacada'); main.insertBefore(document.getElementById('iphone'), main.firstChild); }
+  else if (esAndroid) { document.getElementById('android').classList.add('destacada'); }
+
+  fetch('version.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (v) {
+    if (!v) return;
+    var fecha = v.fecha ? new Date(v.fecha).toLocaleDateString('es-DO', { day: 'numeric', month: 'long', year: 'numeric' }) : '';
+    document.getElementById('version').textContent = 'Versión ' + v.version + ' (' + v.build + ')' + (fecha ? ' · actualizada el ' + fecha : '');
+  }).catch(function () {});
+</script>
+</body>
+</html>

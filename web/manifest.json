@@ -1,0 +1,17 @@
+{
+  "name": "Casa de Dios · La Vega",
+  "short_name": "CFCD La Vega",
+  "start_url": "/cfcd-app/web/",
+  "scope": "/cfcd-app/web/",
+  "display": "standalone",
+  "background_color": "#FCFAF3",
+  "theme_color": "#0B2545",
+  "icons": [
+    {
+      "src": "/cfcd-app/web/icono.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
